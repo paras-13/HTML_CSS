@@ -1,5 +1,12 @@
+body{
+    background-color:#f5efef
+}
 h1, h2, h3, h4, p, li{
     font-family:serif;
+    color:#444;
+}
+h1, h2, h3{
+    color:rgb(15, 15, 125)
 }
 h1
 {
@@ -51,4 +58,14 @@ header p{
 .related{
     list-style:none;
 }
-
+.main-header{
+    background-color:#f7f7f7
+}
+aside{
+    background-color:#f7f7f7;
+    /* border:5px solid #1098ad;   */
+    border-top:  5px solid #1098ad;
+    border-bottom:  5px solid #1098ad;
+    /* border-left:  5px solid #1098ad; */
+    /* border-right:  5px solid #1098ad; */
+}
