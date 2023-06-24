@@ -61,6 +61,9 @@ header p{
 .main-header{
     background-color:#f7f7f7
 }
+
+/* Applying borders*/
+
 aside{
     background-color:#f7f7f7;
     /* border:5px solid #1098ad;   */
@@ -68,4 +71,44 @@ aside{
     border-bottom:  5px solid #1098ad;
     /* border-left:  5px solid #1098ad; */
     /* border-right:  5px solid #1098ad; */
+}
+
+/* PSEUDO CLASSES */
+ 
+li:first-child{
+    text-decoration: underline;
+}
+li:last-child{
+    text-decoration: underline;
+}
+li:nth-child(1){
+    color:red;
+}
+li:nth-child(odd){
+    font-weight:bold;
+}
+li:nth-child(even){
+    font-style:italic;
+}
+
+
+/* Styling Links with pseudo classes*/
+/* LVHA --> link, visited, hover, active */
+a:link{
+    color:#098092;
+    text-decoration:none;
+}
+
+/* a:visited{              Applys to the links which are visited
+    color:#681cda;
+} */
+
+a:hover{
+    color:orangered;
+    font-weight:bold;
+    text-decoration:underline solid orangered;
+}
+a:active{                     /*When link is clicked*/
+    background-color:black;
+    font-style:italic;
 }
