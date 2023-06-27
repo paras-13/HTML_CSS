@@ -112,3 +112,14 @@ a:active{                     /*When link is clicked*/
     background-color:black;
     font-style:italic;
 }
+
+/* Selectors priority
+
+1. With !important keyword
+2. Inline style element
+3. ID 
+4. Class
+5. Pseudo class
+6. Element selector
+
+*/
