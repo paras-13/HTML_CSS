@@ -1,10 +1,13 @@
+/* *{
+    border-top: 10px solid #1098ad
+} */
+
 body{
-    background-color:#f5efef
-}
-h1, h2, h3, h4, p, li{
-    font-family:serif;
+    background-color:#f5efef;
+    font-family:sans-serif;
     color:#444;
-}
+}  
+
 h1, h2, h3{
     color:rgb(15, 15, 125)
 }
@@ -121,5 +124,10 @@ a:active{                     /*When link is clicked*/
 4. Class
 5. Pseudo class
 6. Element selector
+7. Universal selector
 
 */
+
+nav a:link{
+    font-size:18px;
+}
