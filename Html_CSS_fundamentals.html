@@ -19,92 +19,93 @@
     <h5>The basic Language of the Web: HTML</h5>
     <h6>The basic Language of the Web: HTML</h6>
     -->
-  <header class="main-header">
-    <h1>📘 The Code Magazine</h1>
-    <nav>
-      <a href="blog.html">Blog</a>
-      <a href="#">Challenges</a>
-      <a href="#">Flexbox</a>
-      <a href="#">CSS grid</a>
-    </nav>
-  </header>
-  <!-- Using paragraph, strong anf em tag  -->
-  <article class="main-content">
-    <header class="post-header">
-      <h2>The Basic Language of the Web: HTML</h2>
-      <img src="/HTML_CSS/Assets/Images/img1.jpg" width="400">
-      <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2030</p>
+  <div class="container">
+    <header class="main-header">
+      <h1>📘 The Code Magazine</h1>
+      <nav>
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS grid</a>
+      </nav>
     </header>
+    <!-- Using paragraph, strong anf em tag  -->
+    <article class="main-content">
+      <header class="post-header">
+        <h2>The Basic Language of the Web: HTML</h2>
+        <img src="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-12/homer-ai-generated-art.jpg" width="100" height="80" class="author-img">
+        <p id="author" class="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2030</p>
+      </header>
+      <img src="/HTML_CSS/Assets/Images/img1.jpg" class="post-img">
+      <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em>
+        technologies: HTML, CSS and JavaScript. These are the languages of the
+        web.
+      </p>
+      <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+      </p>
+      <h3>What is HTML?</h3>
+      <p>
+        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language).
+      </p>
+      <p>
+        HTML consists of elements that describe different types of content:
+        paragraphs, links, headings, images, video, etc. Web browsers understand
+        HTML and render HTML code as websites.
+      </p>
 
-    <p>
-      All modern websites and web applications are built using three
-      <em>fundamental</em>
-      technologies: HTML, CSS and JavaScript. These are the languages of the
-      web.
-    </p>
-    <p>
-      In this post, let's focus on HTML. We will learn what HTML is all about,
-      and why you too should learn it.
-    </p>
-    <h3>What is HTML?</h3>
-    <p>
-      HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-      <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
-      language that web developers use to structure and describe the content
-      of a webpage (not a programming language).
-    </p>
-    <p>
-      HTML consists of elements that describe different types of content:
-      paragraphs, links, headings, images, video, etc. Web browsers understand
-      HTML and render HTML code as websites.
-    </p>
-
-    <!-- Using List Elemets in HTML -->
-    <p>In HTML, each element is made up of 3 parts:</p>
-    <ol> <!--Ordered List-->
-      <li>The opening tag</li>
-      <li>The closing tag</li>
-      <li>The actual elements</li>
-    </ol>
-    <p>You can learn more at
-      <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjbsLePkYn9AhUD7TgGHRaID-sQFnoECAkQAQ&url=https%3A%2F%2Fdeveloper.mozilla.org%2F&usg=AOvVaw2SKyx0njvBQRAGWeriS8JP"
-        target="_blank">MDN Web Docs</a>
-    </p>
-    <h3>Why should you learn HTML?</h3>
-    <p>
-      There are countless reasons for learning the fundamental language of the
-      web. Here are 5 of them:
-    </p>
-    <ul> <!-- Unordered List-->
-      <li>To be able to use the fundamental web dev language</li>
-      <li>
-        <!-- To hand-craft beautiful websites instead of relying on tools like -->
-        Worpress or Wix
-      </li>
-      <li>To build web applications</li>
-      <li>To impress friends</li>
-      <li>To have fun 😃</li>
-    </ul>
-    <p>Hopefully you learned something new here, See you next time!</p>
-  </article>
-  <aside>
-    <h4>Related posts</h4>
-    <ul class="related">
-      <li><img src="/HTML_CSS/Assets/Images/img2.jpeg" width="100"><a href="#">How to learn web development</a></li>
-      <p class="related-author">By Jonas Schmedtmann</p>
-      <li><img src="/HTML_CSS/Assets/Images/img3.png" width="100"><a href="#">The Unknown power of CSS</a></li>
-      <p class="related-author">By Jim Dillon</p>
-      <li><img src="/HTML_CSS/Assets/Images/img4.jpeg" width="100"><a href="#">Why JavaScript is awesome</a></li>
-      <p class="related-author">By Matildas</p>
-    </ul>
-  </aside>
-  <footer>
-    <p id="copyright"">Copyright &copy; 2027 by The Code Magzine</p>
+      <!-- Using List Elemets in HTML -->
+      <p>In HTML, each element is made up of 3 parts:</p>
+      <ol> <!--Ordered List-->
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual elements</li>
+      </ol>
+      <p>You can learn more at
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjbsLePkYn9AhUD7TgGHRaID-sQFnoECAkQAQ&url=https%3A%2F%2Fdeveloper.mozilla.org%2F&usg=AOvVaw2SKyx0njvBQRAGWeriS8JP"
+          target="_blank">MDN Web Docs</a>
+      </p>
+      <h3>Why should you learn HTML?</h3>
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+      <ul> <!-- Unordered List-->
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          <!-- To hand-craft beautiful websites instead of relying on tools like -->
+          Worpress or Wix
+        </li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun 😃</li>
+      </ul>
+      <p>Hopefully you learned something new here, See you next time!</p>
+    </article>
+    <aside>
+      <h4>Related posts</h4>
+      <ul class="related">
+        <li><img src="/HTML_CSS/Assets/Images/img2.jpeg" width="100"><a href="#">How to learn web development</a></li>
+        <p class="related-author">By Jonas Schmedtmann</p>
+        <li><img src="/HTML_CSS/Assets/Images/img3.png" width="100"><a href="#">The Unknown power of CSS</a></li>
+        <p class="related-author">By Jim Dillon</p>
+        <li><img src="/HTML_CSS/Assets/Images/img4.jpeg" width="100"><a href="#">Why JavaScript is awesome</a></li>
+        <p class="related-author">By Matildas</p>
+      </ul>
+    </aside>
+    <footer>
+      <p id="copyright"">Copyright &copy; 2027 by The Code Magzine</p>
   </footer>
   <input type=" button" placeholder="Submit Here">
+  </div>
 
-
-<!-- 
+  <!-- 
 CSS BOX MODEL 
 Border :- A line around the element still inside of the element
 Padding :- Invisible space around the content, inside of the element
@@ -112,7 +113,9 @@ Margin :- Space outside of the element, between elements
 Fill Area :- Area that gets filled with background color or background image
 -->
 
-<!-- Margin- Collapsing : Two margins collapse with each other and the one which is bigger is shown onto the screen -->
+  <!-- Margin- Collapsing : Two margins collapse with each other and the one which is bigger is shown onto the screen -->
+
+  
 </body>
 
 </html>
